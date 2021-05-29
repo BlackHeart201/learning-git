@@ -25,5 +25,7 @@ for i in shoping_dict:
     print("Idę do", i.capitalize(),
           "kupuję tu następujące rzeczy:", shoping_dict[i])
     items_quantity += len(shoping_dict[i])
+
+
 print("W sumie kupuję", items_quantity, "produktów")
 print("")
