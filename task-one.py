@@ -29,3 +29,5 @@ for i in shoping_dict:
 
 print("W sumie kupuję", items_quantity, "produktów")
 print("")
+
+print("Zmiana")
