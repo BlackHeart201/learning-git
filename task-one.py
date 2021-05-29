@@ -16,3 +16,14 @@ shoping_dict = {
     bakery: bakery_items_capitalise,
     grocery_store: grocery_items_capitalise
 }
+
+
+items_quantity = 0
+
+print("Lista zakupów")
+for i in shoping_dict:
+    print("Idę do", i.capitalize(),
+          "kupuję tu następujące rzeczy:", shoping_dict[i])
+    items_quantity += len(shoping_dict[i])
+print("W sumie kupuję", items_quantity, "produktów")
+print("")
